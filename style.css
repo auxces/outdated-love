@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .aka{
     height: 48px;
     width: auto;
@@ -29,6 +34,9 @@ body{
     font-family: 'Days One', sans-serif;
     height: 100%;
    overflow-y: hidden;
+   min-height: 100vh;
+   background-color: orange;
+
 }
 
 .social {   
@@ -37,4 +45,33 @@ body{
 
 #github{
     fill: black;
+}
+
+#avi {
+    display: flex;
+    justify-content: center;
+}
+
+.coeavi{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+}
+.intoxicated{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: -1000;
+    overflow: auto;
+}
+.white{
+    width: 50%;
+    height: auto;
+}
+#maincontent {
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
 }
