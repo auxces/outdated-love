@@ -119,7 +119,8 @@ body{
     height: 50vh;
     width: 60vw;
     border-radius: 27px;
-    padding: 50px 25px
+    padding: 50px 25px;
+    border: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 .discord{
