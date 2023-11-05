@@ -23,6 +23,18 @@ body{
     width: 180px;
 }
 
+.marker {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+
+.markerx {
+    height: 120px;
+    width: auto;
+    mix-blend-mode: overlay;
+}
+
 #dying {
     display: inline-block;
     color: white;
