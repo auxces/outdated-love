@@ -108,6 +108,12 @@ body{
     mix-blend-mode: screen;
     opacity: 9%;
 }
+
+#black{
+    opacity: 100%;
+    filter: blur(1px);
+}
+
 #peace{
     position:fixed;
     display: flex;
