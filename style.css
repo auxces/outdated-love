@@ -97,6 +97,7 @@ body{
     color: white;
     text-align: center;
 }
+
 .intoxicated{
     position: fixed;
     display: flex;
@@ -106,20 +107,22 @@ body{
     z-index: -999;
     overflow: auto;
     mix-blend-mode: screen;
-    opacity: 9%;
+    opacity: 1%;
 }
 
 #black{
     opacity: 100%;
-    filter: blur(1px);
 }
 
 #peace{
     position:fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     z-index: -1000;
     overflow: auto;
     opacity: 36%;
@@ -144,30 +147,9 @@ body{
 }
 
 .discord{
-    margin: 30px;
-}
-.dcard{
     display: flex;
-    padding: 2px;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 130px;
-    background-color: rgb(255, 255, 255, 0.4);
-    border: 1px solid rgb(255, 255, 255, 0.2);
-    border-radius: 15px;
-}
-
-.cardinfo{
-    margin-left: 15px;
-    color: white;
-}
-
-#davi{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-
 }
 
 .icon {
@@ -176,5 +158,35 @@ body{
     filter: invert(100%) drop-shadow(0 0 16px #FFFFFF);
 }
 
-
-
+#ntxctd{
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: auto;
+}
+#verified{
+    display: flex;
+    position: absolute;
+    z-index: 9998;
+    top:150px;
+    left: 600px;
+}
+#check{
+    height: 24px;
+    width: auto;
+}
+#pentagram{
+    z-index: 1;
+    position: relative;
+    top: 180px;
+    left: 60px;
+    height: 50px;
+    width: 50px;
+}
+#stars{
+    position: relative;
+    top: 100px;
+    right:60px;
+    height: 60px;
+    width: auto;
+}
