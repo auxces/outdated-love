@@ -105,7 +105,7 @@ body{
     align-items: center;
     height: 100%;
     z-index: -999;
-    overflow: auto;
+    overflow: hidden;
     mix-blend-mode: screen;
     opacity: 9%;
 }
@@ -124,11 +124,11 @@ body{
     top: 0;
     bottom: 0;
     z-index: -1000;
-    overflow: auto;
+    overflow: hidden;
     opacity: 36%;
 }
 .white{
-    width: 50%;
+    width: 888px;
     height: auto;
 }
 
@@ -139,11 +139,21 @@ body{
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.0);
-    height: 50vh;
+    height: 60vh;
     width: 60vw;
     border-radius: 27px;
     padding: 50px 25px;
     border: 0px solid rgb(255, 255, 255, 0.1);
+    margin-bottom: 25vh;
+}
+
+#angels{
+    display: flex;
+    position: relative;
+    top: 300px;
+    font-size: 19px;
+    color: white;
+    text-align: center;
 }
 
 .discord{
