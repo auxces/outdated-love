@@ -16,6 +16,8 @@ body{
    justify-content: center;
 }
 
+
+
 .aka {
     display: flex;
     justify-content: space-evenly;
@@ -225,4 +227,63 @@ body{
     right:60px;
     height: 60px;
     width: auto;
+}
+
+@media all and (max-width: 767px) {
+    #dying{
+        font-size: 5vw;
+    }
+    .white{
+        width: 100vw;
+        height: auto;
+    }
+    .markerx{
+        display: none;
+    }
+    #pentagram{
+        top: 120px;
+        left: 40px;
+        height: 10vw;
+        width: auto;
+    }
+    .coeavi{
+        height: 30vw;
+        width: auto;
+    }
+    .name{
+        font-size: 8vw;
+    }
+
+    .status{
+        font-size: 5vw;
+    }
+
+    .status:hover span{
+        display: none;
+    }
+    
+    .status:hover:before{
+        font-family: 'Days One', sans-serif;
+        font-size: 5vw;
+        content: "the world would be perfect if it were empty";
+    }
+    .discord{
+        display: none;
+    }
+    .icon{
+        width: 10vw;
+        height: auto;
+    }
+    #angels{
+        top: 20vh;
+    }
+
+    #angels:hover span{
+        display: none;
+    }
+    
+    #angels:hover:before{
+        font-family: 'Days One', sans-serif;
+        content: "✩₊˚.⋆☾⋆⁺₊✧";
+    }
 }
