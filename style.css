@@ -152,8 +152,19 @@ body{
     position: relative;
     top: 300px;
     font-size: 19px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
     color: white;
     text-align: center;
+}
+
+#angels:hover span{
+    display: none;
+}
+
+#angels:hover:before{
+    content: "𝖙𝖆𝖐𝖊 𝖒𝖔𝖗𝖊 𝖙𝖍𝖆𝖓 𝖘𝖔𝖒𝖊 𝖜𝖔𝖗𝖉𝖘 𝖙𝖔 𝖚𝖓𝖉𝖊𝖗𝖘𝖙𝖆𝖓𝖉 𝖙𝖍𝖎𝖘 𝖘𝖍𝖎𝖙";
 }
 
 .discord{
