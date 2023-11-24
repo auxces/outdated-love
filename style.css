@@ -55,8 +55,8 @@ body{
     width:100%;
     height: 100%;
     z-index: 10;
-    /*background-color: black;*/
-    backdrop-filter: blur(10px) brightness(10%);
+    -webkit-backdrop-filter: blur(10px) brightness(6%);
+    backdrop-filter: blur(10px) brightness(6%);
     overflow-x: auto;
     overflow-y: auto;
 }
@@ -120,7 +120,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    z-index: -999;
     overflow: hidden;
     mix-blend-mode: screen;
     opacity: 9%;
@@ -139,7 +138,6 @@ body{
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1000;
     overflow: hidden;
     opacity: 36%;
 }
