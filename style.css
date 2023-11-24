@@ -92,10 +92,25 @@ body{
     align-items: center;
 }
 .status{
+    font-family: 'Days One', sans-serif;
     font-size: 25px;
     text-shadow:0px 0px 1px;
     color: white;
     text-align: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.status:hover span{
+    display: none;
+}
+
+.status:hover:before{
+    font-family: 'Days One', sans-serif;
+    font-size: 25px;
+    content: "You must first achieve the act/feeling/thought of nothingness in order to create the space for the creation of everything";
 }
 
 .intoxicated{
@@ -140,7 +155,7 @@ body{
     justify-content: center;
     background: rgba(0, 0, 0, 0.0);
     height: 60vh;
-    width: 60vw;
+    width: 100vw;
     border-radius: 27px;
     padding: 50px 25px;
     border: 0px solid rgb(255, 255, 255, 0.1);
@@ -151,7 +166,7 @@ body{
     display: flex;
     position: relative;
     top: 300px;
-    font-size: 19px;
+    font-size: 22px;
     background-color: transparent;
     border: none;
     padding: 0;
@@ -164,7 +179,8 @@ body{
 }
 
 #angels:hover:before{
-    content: "𝖙𝖆𝖐𝖊 𝖒𝖔𝖗𝖊 𝖙𝖍𝖆𝖓 𝖘𝖔𝖒𝖊 𝖜𝖔𝖗𝖉𝖘 𝖙𝖔 𝖚𝖓𝖉𝖊𝖗𝖘𝖙𝖆𝖓𝖉 𝖙𝖍𝖎𝖘 𝖘𝖍𝖎𝖙";
+    font-family: 'Days One', sans-serif;
+    content: "*ੈ✩‧₊˚wish you well˚☽˚｡⋆˖°";
 }
 
 .discord{
