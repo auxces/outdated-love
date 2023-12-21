@@ -115,8 +115,8 @@ body{
 
 .status:hover:before{
     font-family: 'Days One', sans-serif;
-    font-size: 24px;
-    content: "You must first achieve the act/feeling/thought of nothingness in order to create the space for the creation of everything";
+    font-size: 25px;
+    content: "kill ur ego n attitude, just make art and love things";
 }
 
 .intoxicated{
@@ -144,7 +144,7 @@ body{
     top: 0;
     bottom: 0;
     overflow: hidden;
-    opacity: 50%;
+    opacity: 27%;
 }
 .white{
     width: 888px;
@@ -225,11 +225,11 @@ body{
     width: 50px;
 }
 #stars{
-    display: none;
+    /*display: none;*/
     position: relative;
     top: 100px;
-    right:60px;
-    height: 50px;
+    right:70px;
+    height: 70px;
     width: auto;
 }
 
