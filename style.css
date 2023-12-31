@@ -20,7 +20,6 @@ body{
 }
 
 
-
 .aka {
     display: flex;
     justify-content: space-evenly;
@@ -64,6 +63,61 @@ body{
     backdrop-filter: blur(10px) brightness(6%);
     overflow-x: auto;
     overflow-y: auto;
+}
+
+@-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+  }
+#seeushine{
+    display: flex;
+    z-index: 15;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-animation: fadeinout 9s linear forwards;
+    animation: fadeinout 9s linear forwards;
+}
+
+
+.luvndrugs{
+    width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes fadeoutaftersumtime {
+    100% { opacity: 0; display: none; }
+    0%,75% { opacity: 1; }
+  }
+  
+  @keyframes fadeoutaftersumtime {
+    100% { opacity: 0; display: none; }
+    0%,75% { opacity: 1; }
+  }
+#blackwall{
+    z-index: 14;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    -webkit-animation: fadeoutaftersumtime 9s linear forwards;
+    animation: fadeoutaftersumtime 9s linear forwards;
 }
 
 .social {   
