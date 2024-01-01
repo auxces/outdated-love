@@ -88,6 +88,7 @@ body{
     height: 100vh;
     overflow: hidden;
     opacity: 1;
+    min-height: 0px;
     -webkit-animation: fadeinout 9s linear forwards;
     animation: fadeinout 9s linear forwards;
     background-color: black;
@@ -125,6 +126,7 @@ body{
     left: 0;
     width: 100vw;
     height: 100vh;
+    min-height: 0px;
     background-color: black;
     -webkit-animation: fadeoutaftersumtime 9s linear forwards;
     animation: fadeoutaftersumtime 9s linear forwards;
@@ -196,7 +198,7 @@ body{
 
 @-webkit-keyframes glowpulse {
     0%,100% { opacity: 0; }
-    50% { opacity: 1; filter: blur(2px) drop-shadow(0 0 10px #FFFFFF);}
+    50% { opacity: 1; -webkit-filter: blur(2px) drop-shadow(0 0 10px #FFFFFF);}
   }
   
   @keyframes glowpulse {
