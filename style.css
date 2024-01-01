@@ -68,13 +68,15 @@ body{
 @-webkit-keyframes fadeinout {
     0% { opacity: 0; }
     50% { opacity: 1; }
-    100% { opacity: 0; display: none; }
+    99%{ opacity: 0; display: none; z-index: 15;}
+    100% { opacity: 0; display: none; z-index: -9999;}
   }
   
   @keyframes fadeinout {
     0% { opacity: 0; }
     50% { opacity: 1; }
-    100% { opacity: 0; display: none; }
+    99%{ opacity: 0; display: none; z-index: 15;}
+    100% { opacity: 0; display: none; z-index: -9999;}
   }
 #seeushine{
     display: flex;
@@ -110,12 +112,14 @@ body{
 }
 
 @-webkit-keyframes fadeoutaftersumtime {
-    100% { opacity: 0; display: none; }
+    100% { opacity: 0; display: none; z-index: -9998; }
+    99%{ opacity: 0; display: none; z-index: 14;}
     0%,75% { opacity: 1; }
   }
   
   @keyframes fadeoutaftersumtime {
-    100% { opacity: 0; display: none; }
+    100% { opacity: 0; display: none; z-index: -9998;}
+    99%{ opacity: 0; display: none; z-index: 14;}
     0%,75% { opacity: 1; }
   }
 #blackwall{
