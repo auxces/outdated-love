@@ -202,7 +202,7 @@ body{
 
 @-webkit-keyframes glowpulse {
     0%,100% { opacity: 0; }
-    50% { opacity: 1; -webkit-filter: blur(2px) drop-shadow(0 0 10px #FFFFFF);}
+    50% { opacity: 1; -webkit-filter: blur(2px) drop-shadow(0 0 10px #FFFFFF); -webkit-appearance: none;}
   }
   
   @keyframes glowpulse {
@@ -210,6 +210,7 @@ body{
     50% { opacity: 1; filter: blur(2px) drop-shadow(0 0 10px #FFFFFF);}
   }
 #black{
+    -webkit-appearance: none;
     mix-blend-mode: overlay;
     animation: glowpulse 3s ease-in-out forwards;
     animation-iteration-count: infinite;
