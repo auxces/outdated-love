@@ -66,13 +66,13 @@ body{
 }
 
 @-webkit-keyframes fadeinout {
-    0%,100% { opacity: 0; }
+    0% { opacity: 0; }
     50% { opacity: 1; }
     100% { opacity: 0; display: none; }
   }
   
   @keyframes fadeinout {
-    0%,100% { opacity: 0; }
+    0% { opacity: 0; }
     50% { opacity: 1; }
     100% { opacity: 0; display: none; }
   }
@@ -90,10 +90,20 @@ body{
     opacity: 1;
     -webkit-animation: fadeinout 9s linear forwards;
     animation: fadeinout 9s linear forwards;
+    background-color: black;
+    mix-blend-mode: screen;
 }
 
 
 .luvndrugs{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+}
+
+.luvtoshine{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
@@ -184,8 +194,19 @@ body{
     opacity: 9%;
 }
 
+@-webkit-keyframes glowpulse {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; filter: blur(2px) drop-shadow(0 0 10px #FFFFFF);}
+  }
+  
+  @keyframes glowpulse {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; filter: blur(2px) drop-shadow(0 0 10px #FFFFFF);}
+  }
 #black{
-    opacity: 100%;
+    mix-blend-mode: overlay;
+    animation: glowpulse 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
 }
 
 #peace{
@@ -288,8 +309,18 @@ body{
 }
 
 @media all and (max-width: 767px) {
+    .intoxicated{
+        margin-bottom: 10vh;
+    }
     #dying{
         font-size: 5vw;
+        margin-bottom: 10vh;
+    }
+    .luvndrugs{
+        margin-bottom: 10vh;
+    }
+    #maincontent{
+        margin-bottom: 30vh;
     }
     .white{
         width: 100vw;
@@ -333,7 +364,7 @@ body{
         height: auto;
     }
     #angels{
-        top: 25vh;
+        top: 15vh;
     }
 
     #angels:hover span{

@@ -38,3 +38,6 @@ function playAudio() {
       y.volume = 0.1;
     }
   }
+  
+  //disable right click just cause y not 
+  document.addEventListener('contextmenu', event => event.preventDefault());
