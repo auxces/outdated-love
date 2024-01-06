@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="luv saikoro">
     <link rel="icon" href="./images/starpurple.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="images/luvndrugs.webp" as="image">
+    <link rel="preload" href="images/ntxcated.webp" as="image">
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="splashscreen.js"></script>
     <script src="snowstorm-min.js"></script>
     <script type="text/javascript">
     snowStorm.zIndex=9999;
@@ -22,27 +24,25 @@
   </head>
   <body>
     <div id="seeushine">
-      <img class="luvndrugs" src="/images/love n drugs.gif" alt="wanna see you shine"/>
+      <img class="luvndrugs" src="/images/luvndrugs.webp" alt="wanna see you shine"/>
     </div>
-    <div id="blackwall"></div>
     <div onclick="playAudio()" id="splashscreen">
       <div id="dying">i am intoxicated</div>
       <div class="intoxicated">
         <img id="black" class="white" src="/images/INTXOICATED white @.png" alt="dying 2 live" />
       </div>
     </div>
-    <video loop playsinline draggable="false" id="peace" src="video/oudated love n drugs.mp4"></video>
+    <video preload="auto" loop playsinline draggable="false" id="peace" src="video/oudated love n drugs.webm"></video>
     <div class="marker">
       <img id="playbutton" class="markerx" onclick="muteVideo()" src="./images/play.png" alt="working on dying">
     </div>
     <audio hidden muted loop id="shine" src="./audio/"></audio>
-    <script src="shine.js"></script>
     <div class="intoxicated">
       <img id="black" class="white" src="./images/INTXOICATED white @.png" alt="dying 2 live" />
     </div>
     <div id="maincontent">
       <img id="stars" src="./images/starpurple.png" alt="kaz_blackstar">
-      <img id="pentagram" src="./images/Verified.gif" alt="sin">
+      <img id="pentagram" src="./images/Verified.webp" alt="sin">
       <div id="avi">
         <img
           class="coeavi"
@@ -55,7 +55,7 @@
       <button class="status"><span>wude</span></button>
       </div>
       <div class="discord">
-            <img id="ntxctd" src="./images/ntxcated.gif" alt="after 2 years its finally here">
+            <img id="ntxctd" src="./images/ntxcated.webp" alt="after 2 years its finally here">
       </div>
       <div class="aka">
         <a style="text-decoration: none" target="_blank" href="https://steamcommunity.com/id/coenum/">
@@ -68,5 +68,7 @@
     </div>
     <button id="angels"><span>✩₊˚.⋆☾⋆⁺₊✧</span></button>
   </body>
+  <script src="shine.js"></script>
+  <script src="splashscreen.js"></script>
 </html>
 
