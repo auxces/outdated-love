@@ -67,12 +67,12 @@ body{
 
 @-webkit-keyframes fadeinout {
     0%,75% { opacity: 1; }
-    100% { opacity: 0; display: none;}
+    100% { opacity: 0; display: none; visibility: hidden;}
   }
   
   @keyframes fadeinout {
     0%,75% { opacity: 1; }
-    100% { opacity: 0; display: none;}
+    100% { opacity: 0; display: none; visibility: hidden;}
   }
 #seeushine{
     display: flex;
