@@ -40,4 +40,4 @@ function playAudio() {
   }
   
   //disable right click just cause y not 
-  document.addEventListener('contextmenu', event => event.preventDefault());
+ // document.addEventListener('contextmenu', event => event.preventDefault());

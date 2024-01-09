@@ -99,6 +99,7 @@ body{
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;
+    -webkit-transform: rotateX(0);
 }
 
 .luvtoshine{
