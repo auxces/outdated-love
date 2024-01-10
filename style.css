@@ -99,7 +99,10 @@ body{
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;
-    -webkit-transform: rotateX(0);
+    background-image: url(images/luvndrugs.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .luvtoshine{
@@ -285,7 +288,13 @@ body{
         font-size: 5vw;
         margin-bottom: 10vh;
     }
+    #seeushine{
+    display: none;
+    visibility: hidden;
+    }
     .luvndrugs{
+        display: none;
+        visibility: hidden;
         margin-bottom: 10vh;
     }
     #maincontent{
