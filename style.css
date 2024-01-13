@@ -59,8 +59,8 @@ body{
     width:100%;
     height: 100%;
     z-index: 10;
-    -webkit-backdrop-filter: blur(10px) brightness(6%);
-    backdrop-filter: blur(10px) brightness(6%);
+    -webkit-backdrop-filter: blur(15px) brightness(2%);
+    backdrop-filter: blur(15px) brightness(2%);
     overflow-x: auto;
     overflow-y: auto;
 }
@@ -99,7 +99,7 @@ body{
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;
-    background-image: url(images/imagine_my_heart.webp);
+    background-image: url(images/imagine\ my\ heart.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -231,7 +231,7 @@ body{
 
 #angels:hover:before{
     font-family: 'Days One', sans-serif;
-    content: "love you";
+    content: "kill ur ego n attitude, just make art and love things";
 }
 
 .discord{
@@ -245,12 +245,20 @@ body{
     height: 50px;
     filter: invert(100%) drop-shadow(0 0 16px #FFFFFF);
 }
-
+#toxic{
+    position: absolute;
+    height: auto;
+    width: auto;
+    inset: 110px 0 0 0;
+    margin: auto;
+    z-index: 5;
+}
 #ntxctd{
     justify-content: center;
     align-items: center;
     height: 220px;
     width: auto;
+    visibility:hidden;
 }
 #verified{
     display: flex;
@@ -296,6 +304,10 @@ body{
         display: none;
         visibility: hidden;
         margin-bottom: 10vh;
+    }
+    #toxic{
+        display: none;
+        visibility: hidden;
     }
     #maincontent{
         margin-bottom: 30vh;
