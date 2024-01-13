@@ -87,8 +87,8 @@ body{
     overflow: hidden;
     opacity: 1;
     min-height: 0px;
-    -webkit-animation: fadeinout 8s linear forwards;
-    animation: fadeinout 8s linear forwards;
+    -webkit-animation: fadeinout 6s ease-in-out forwards;
+    animation: fadeinout 6s ease-in-out forwards;
     background-color: black;
     mix-blend-mode: normal;
 }
@@ -99,9 +99,9 @@ body{
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;
-    background-image: url(images/luvndrugs.webp);
+    background-image: url(images/imagine_my_heart.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
