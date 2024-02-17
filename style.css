@@ -377,7 +377,7 @@ body{
     }
 }
 
-@media screen and (max-width:430px) and (max-height:750px){
+@media screen and (max-width:430px) and (max-height:830px){
     #pentagram{
         position: relative;
         height: 5vh;
@@ -387,7 +387,47 @@ body{
     }
 }
 
-@media screen and (max-width:430px) and (max-height:700px){
+@media screen and (max-width:430px) and (max-height:750px){
+    #pentagram{
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 17vh;
+        left: 11vw;
+    }
+}
+
+@media screen and (max-width:430px) and (max-height:730px){
+    #pentagram{
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 18vh;
+        left: 11vw;
+    }
+}
+
+@media screen and (max-width:430px) and (max-height:730px){
+    #pentagram{
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 19vh;
+        left: 11vw;
+    }
+}
+
+@media screen and (max-width:400px) and (max-height:750px){
+    #pentagram{
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        top: 15vh;
+        left: 11vw;
+    }
+}
+
+@media screen and (max-width:400px) and (max-height:700px){
     #pentagram{
         position: relative;
         height: 5vh;
