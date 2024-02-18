@@ -325,6 +325,7 @@ body{
     }
     #pentagram{
         position: relative;
+        display: none;
         height: 4vh;
         width: 4vh;
         top: 14vh;
@@ -332,7 +333,7 @@ body{
     }
     #stars{
         height: 6vh;
-        top: 10vh;
+        top: 6vh;
         right: 12vw;
     }
     .coeavi{
