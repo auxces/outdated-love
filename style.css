@@ -27,6 +27,12 @@ body{
     width: 180px;
 }
 
+#showBackground{
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
+
 .marker {
     position: fixed;
     top: 0%;
@@ -36,7 +42,7 @@ body{
 .markerx {
     width: 50px;
     height: 50px;
-    filter: opacity(.1);
+    filter: opacity(.5);
     mix-blend-mode: screen;
 }
 .markerx:hover{
@@ -186,7 +192,7 @@ body{
 }
 
 #peace{
-    position:fixed;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -204,6 +210,7 @@ body{
 
 #maincontent {
     display: flex;
+ /*-----------------------------*/
     flex-direction: column;
     position: fixed;
     align-items: center;
