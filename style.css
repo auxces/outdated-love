@@ -265,6 +265,8 @@ body{
     z-index: 4;
     margin: auto;
     inset: 50px 0 0 0;
+    -webkit-filter: hue-rotate(270deg);
+    transform: translate3d(0,0,0);
     mix-blend-mode: saturation;
     filter: hue-rotate(270deg);
 }
