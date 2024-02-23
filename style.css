@@ -222,6 +222,7 @@ body{
     padding: 50px 25px;
     border: 0px solid rgb(255, 255, 255, 0.1);
     margin-bottom: 15vh;
+    z-index: 5;
 }
 
 #angels{
@@ -261,7 +262,7 @@ body{
     position: absolute;
     height: 66vh;
     width: auto;
-    z-index: 6;
+    z-index: 4;
     margin: auto;
     inset: 50px 0 0 0;
     mix-blend-mode: saturation;
@@ -274,7 +275,7 @@ body{
     width: auto;
     inset: 110px 0 0 0;
     margin: auto;
-    z-index: 5;
+    z-index: 6;
 }
 #ntxctd{
     justify-content: center;
