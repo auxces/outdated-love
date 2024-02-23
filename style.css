@@ -256,6 +256,18 @@ body{
     height: 50px;
     filter: invert(100%) drop-shadow(0 0 16px #FFFFFF);
 }
+
+#sins{
+    position: absolute;
+    height: 66vh;
+    width: auto;
+    z-index: 6;
+    margin: auto;
+    inset: 50px 0 0 0;
+    mix-blend-mode: saturation;
+    filter: hue-rotate(270deg);
+}
+
 #toxic{
     position: absolute;
     height: auto;
