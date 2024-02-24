@@ -331,6 +331,9 @@ body{
         visibility: hidden;
         margin-bottom: 10vh;
     }
+    #sins{
+        display: none;
+    }
     #toxic{
         display: none;
         visibility: hidden;
