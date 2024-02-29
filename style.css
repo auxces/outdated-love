@@ -30,7 +30,7 @@ body{
 #showBackground{
     position: fixed;
     top: 0;
-    left: 50px;
+    right: 0;
 }
 
 .marker {
@@ -268,8 +268,8 @@ body{
     inset: 50px 0 0 0;
     -webkit-filter: hue-rotate(270deg);
     transform: translate3d(0,0,0);
-    mix-blend-mode: saturation;
-    filter: hue-rotate(270deg);
+    mix-blend-mode: color;
+    filter: hue-rotate(45deg) brightness(1.5) blur(3px) contrast(9);
 }
 
 #toxic{
