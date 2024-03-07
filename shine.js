@@ -46,6 +46,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 let main = document.getElementById("maincontent");
 let gif = document.getElementById("toxic");
 let quote = document.getElementById("angels");
+let splash = document.getElementById("sins");
 let hidden = 0;
 
 
@@ -54,6 +55,7 @@ function hideForeground(){
     main.style.display = 'none';
     gif.style.display = 'none';
     quote.style.display = 'none';
+    splash.style.display = 'none';
     y.style.opacity = "1";
     hidden = 1
   }
@@ -61,6 +63,7 @@ function hideForeground(){
     main.style.display = 'flex';
     gif.style.display = 'inline';
     quote.style.display = 'flex';
+    splash.style.display = 'inline';
     y.style.opacity = "0.27";
     hidden = 0
   }
