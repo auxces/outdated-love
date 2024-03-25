@@ -269,7 +269,8 @@ body{
     -webkit-filter: hue-rotate(270deg);
     transform: translate3d(0,0,0);
     mix-blend-mode: color;
-    filter: hue-rotate(45deg) brightness(1.5) blur(3px) contrast(9);
+    filter: hue-rotate(90deg) brightness(1.5) blur(3px) contrast(2);
+    opacity: 0.35;
 }
 
 #toxic{
