@@ -253,7 +253,7 @@ body{
     color: white;
     text-align: center;
     opacity: 0;/* 0 because of slide in keyframs animation, clear it if animation is removed*/
-    mix-blend-mode: saturation;
+    mix-blend-mode: overlay;
 }
 
 #angels:hover span{
@@ -301,8 +301,8 @@ body{
     inset: 50px 0 0 0;
     -webkit-filter: hue-rotate(270deg);
     transform: translate3d(0,0,0);
-    mix-blend-mode: color;
-    filter: hue-rotate(333deg) brightness(1.5) blur(3px) contrast(1);
+    mix-blend-mode: color-burn;
+    filter: hue-rotate(90deg) brightness(1.5) blur(3px) contrast(1);
     opacity: 0;/* 0 because of slide in keyframs animation, clear it if animation is removed*/
 }
 
@@ -427,6 +427,7 @@ body{
         height: auto;
     }
     #angels{
+        display: none;
         top: 15vh;
     }
 
